@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <video autoplay muted controls>
+      <source
+        src="https://res.cloudinary.com/dryfhxwe6/video/upload/v1655696213/test_video.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support the video tag.
+    </video>
+
+    <form method="post" enctype="multipart/form-data" id="upload-form">
+      <div>
+        <label for="file">Choose a file</label>
+        <input type="file" id="file" name="upload" />
+      </div>
+      <div>
+        <button>Send the file</button>
+      </div>
+    </form>
+    <script src="./main.js"></script>
+  </body>
+</html>
